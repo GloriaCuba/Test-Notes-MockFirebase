@@ -1,0 +1,29 @@
+{
+  "name": "2018-2-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint .",
+    "build": "babel src -d lib",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "jest",
+    "firebase-mock",
+    "firebase"
+  ],
+  "author": "Daniela Gonzales",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.10.0",
+    "firebase-mock": "^2.2.10",
+    "jest": "^23.6.0",
+    "mock-cloud-firestore": "^0.9.3",
+    "regenerator-runtime": "^0.13.1"
+  }
+}
